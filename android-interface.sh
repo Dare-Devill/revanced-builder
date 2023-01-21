@@ -56,7 +56,7 @@ error() {
 
 dload_and_install() {
   log "Downloading revanced-builder..."
-  curl -sLo revanced-builder.zip https://github.com/Dare-Devill/revanced-builder/archive/refs/heads/main.zip
+  curl -sLo revanced-builder.zip https://github.com/Dare-Devill/revanced-builder/archive/refs/heads/master.zip
   log "Unzipping..."
   unzip -qqo revanced-builder.zip
   rm revanced-builder.zip
