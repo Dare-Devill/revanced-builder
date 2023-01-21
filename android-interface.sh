@@ -60,7 +60,7 @@ dload_and_install() {
   log "Unzipping..."
   unzip -qqo revanced-builder.zip
   rm revanced-builder.zip
-  mv revanced-builder-main/{.[!.]*,*} .
+  mv revanced-builder-master/{.[!.]*,*} .
   log "Installing packages..."
   npm install --omit=dev
   rmdir revanced-builder-main
