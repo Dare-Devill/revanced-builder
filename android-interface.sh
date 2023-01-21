@@ -201,9 +201,9 @@ run_self_update() {
 
   # Download new version
   log "Downloading latest version..."
-  if ! curl -sLo $SCR_NAME_EXEC_FP.tmp https://raw.githubusercontent.com/reisxd/revanced-builder/main/android-interface.sh ; then
+  if ! curl -sLo $SCR_NAME_EXEC_FP.tmp https://raw.githubusercontent.com/Dare-Devill/revanced-builder/master/android-interface.sh ; then
     log "Failed: Error while trying to download new version!"
-    error "File requested: https://raw.githubusercontent.com/reisxd/revanced-builder/main/android-interface.sh" n
+    error "File requested: https://raw.githubusercontent.com/Dare-Devill/revanced-builder/master/android-interface.sh" n
   fi
   log "Done."
 
