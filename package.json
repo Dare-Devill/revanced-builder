@@ -1,0 +1,42 @@
+{
+  "name": "revanced-builder",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "main": "index.js",
+  "type": "commonjs",
+  "pkg": {
+    "assets": [
+      "public/**/*"
+    ]
+  },
+  "scripts": {
+    "start": "node .",
+    "fmt": "prettier --write . && eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-info-parser": "^1.1.4",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fkill": "^7.2.1",
+    "node-fetch": "^2.6.7",
+    "node-fetch-progress": "^1.0.2",
+    "nodemon": "^2.0.20",
+    "open": "^8.4.0",
+    "portfinder": "^1.0.32",
+    "semver": "^7.3.8",
+    "tar": "^6.1.13",
+    "ws": "^8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
