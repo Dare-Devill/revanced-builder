@@ -17,7 +17,11 @@
   --icon-background: #1b1e29;
   --border-radius: 10px;
 }
-
+.name{
+color: lightblue;
+font-family: cursive;
+font-weight: bold;
+}
 html.black:root {
   --primaryColor: black;
 }
@@ -266,3 +270,4 @@ html.black .searchBox {
   margin-top: 5px;
   user-select: auto;
 }
+
