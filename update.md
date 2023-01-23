@@ -24,7 +24,7 @@ After that, you have to run these commands:
 
 **Update from Termux** - Open your termux app and type this given command 
 
-    ./revanced-builder.sh update
+    ./revanced-builder.sh update && ./revanced-builder.sh
 
 
 
